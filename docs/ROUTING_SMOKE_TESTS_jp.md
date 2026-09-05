@@ -27,3 +27,9 @@ Routingルールを変更した後の軽量チェックとして使用します�
 | Host側Persona / RoleがScopeやConstraintを定義済み | そのRole、Scope、Constraintを維持したままSkillを適用する |
 | Routing / Orchestration LayerがAuthorityやStop Conditionを定義済み | 既存Boundaryに従い、ロードされたSkillが上書きしない |
 | Role / Authority / Scopeが明示されていない | 現在のTaskから必要最小限の作業Boundaryだけを扱い、Methodを理由にScopeを拡大しない |
+
+## 選択ルールの補足
+
+現在未解決の責務に最も直接合う手法を選び、確定済みの結果を再利用します。他スキルへの言及だけではロードしません。専門スキル内の通常の推論・検証に追加スキルは不要です。親の問題設定と子の局所問題の解決は別責務なので、problem-solvingの併用自体は禁止しません。
+
+要件ゲートは既存の承認を先に確認します。UIに見える変更であることだけを停止理由にせず、依頼範囲内の判断は進めます。真正の新規製品要件は承認まで提案として保持します。

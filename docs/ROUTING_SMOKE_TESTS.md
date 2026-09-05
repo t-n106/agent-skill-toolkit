@@ -27,3 +27,9 @@ A good routing system should also skip methods for obvious, low-risk, directly e
 | Host persona or role already defines scope/constraints | Preserve that role, scope, and constraints while applying the selected skill |
 | Routing/orchestration layer defines authority and stop conditions | Follow that established boundary; the loaded skill must not override it |
 | No explicit role, authority, or scope exists | Infer only the minimum working boundary from the current task; do not expand scope merely because a method suggests more work |
+
+## Selection refinements
+
+Use the narrowest method matching the current unresolved responsibility. Reuse established results; naming another method is not a load instruction. Specialized methods include their routine reasoning and checks. A parent framing a task and a worker solving a different local uncertainty may both use problem-solving without repeating settled work.
+
+Existing authorization takes precedence over a new alignment checkpoint. UI visibility alone does not require approval. A genuine new product requirement remains a proposal until its owner accepts it.

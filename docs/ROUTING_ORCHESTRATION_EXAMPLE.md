@@ -59,3 +59,9 @@ Examples:
 ## Important
 
 A routing layer should recognize triggers without already needing the target skill. If a trigger cannot be described outside the skill, the boundary is probably too circular or too fine-grained.
+
+## Selection refinements
+
+Use the narrowest method matching the current unresolved responsibility. Reuse established results; naming another method is not a load instruction. Specialized methods include their routine reasoning and checks. A parent framing a task and a worker solving a different local uncertainty may both use problem-solving without repeating settled work.
+
+Existing authorization takes precedence over a new alignment checkpoint. UI visibility alone does not require approval. A genuine new product requirement remains a proposal until its owner accepts it.
